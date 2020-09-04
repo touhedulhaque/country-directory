@@ -11,7 +11,8 @@ const Country = (props) => {
         border: '5px solid purple',
         borderRadius: '20px',
         margin: '100px',
-        padding: '10px'
+        padding: '10px',
+        background: 'linear-gradient(135deg, rgb(255,0,0,0), rgb(255,0,0,1))'
     }
     const btnStyle = {
         width: '220px',

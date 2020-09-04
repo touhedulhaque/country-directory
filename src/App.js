@@ -32,6 +32,7 @@ function App() {
           </Switch>
         </Router>
       </div>
+      <p><small>Developed by: Md Touhedul Haque (copyright 2020)</small></p>
 
 
     </div>

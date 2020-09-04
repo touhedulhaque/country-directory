@@ -18,7 +18,8 @@ const CountryDetail = () => {
         margin: '100px',
         padding: '10px',
         fontWeight: 'bold',
-        color: 'navy'
+        color: 'navy',
+        background: 'linear-gradient(-100deg, yellow, grey)'
     }
     return (
         <div style={individualCountryStyle}>
@@ -28,7 +29,7 @@ const CountryDetail = () => {
             <h4>Population: {country.population}</h4>
             <h5>Phone Calling Code: {country.callingCodes}</h5>
             <h6>Democratic Name: {country.demonym}</h6>
-            <p><img style={{width: '300px'}} src={country.flag} alt="" /></p>
+            <p><img style={{width: '200px'}} src={country.flag} alt="" /></p>
         </div>
     );
 };
